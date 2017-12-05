@@ -3,8 +3,7 @@ var dinosaur ='Triceratops';
 
 var dinoUprCase = dinosaur.toUpperCase();
 
-var textfix = text.replace('Velociraptor', dinosaur);
-console.log(text.length);
+var textFix = text.replace('Velociraptor', dinosaur);
 
-var textclip = text.slice(0,74);
-console.log(textclip);
+var textClip = textFix.slice(0, textFix.length/2);
+console.log(textClip);
